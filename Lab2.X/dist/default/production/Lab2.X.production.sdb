@@ -1,0 +1,245 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1619 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"30 C:\Users\Miran\MPLABXProjects\a\Lab2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"74
+[v _adc adc `(ui  1 e 2 0 ]
+"83
+[v _init init `(v  1 e 1 0 ]
+"98
+[v _init_display init_display `(v  1 e 1 0 ]
+"124
+[v _print_char print_char `(v  1 e 1 0 ]
+"142
+[v _print_instr print_instr `(v  1 e 1 0 ]
+"159
+[v _EE EE `(v  1 e 1 0 ]
+"173
+[v _E E `(v  1 e 1 0 ]
+"414 C:\Program Files (x86)\Microchip\xc8\v1.37\include\pic16f1619.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+[s S110 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"429
+[u S117 . 1 `S110 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES117  1 e 1 @12 ]
+"463
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"1579
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1628
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S28 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1683
+[u S37 . 1 `S28 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES37  1 e 1 @142 ]
+"2342
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"2361
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"2380
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+"2459
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2571
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2620
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"3020
+[v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
+"3258
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3304
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+[s S49 . 1 `uc 1 ANSC0 1 0 :1:0 
+`uc 1 ANSC1 1 0 :1:1 
+`uc 1 ANSC2 1 0 :1:2 
+`uc 1 ANSC3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 ANSC6 1 0 :1:6 
+`uc 1 ANSC7 1 0 :1:7 
+]
+"3361
+[s S57 . 1 `uc 1 ANSELC 1 0 :8:0 
+]
+[u S59 . 1 `S49 1 . 1 0 `S57 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES59  1 e 1 @398 ]
+"28772
+[v _GO GO `VEb  1 e 0 @1257 ]
+"27 C:\Users\Miran\MPLABXProjects\a\Lab2.X\main.c
+[v _digits digits `[5]uc  1 e 5 0 ]
+"28
+[v _adcval adcval `ui  1 e 2 0 ]
+"30
+[v _main main `(v  1 e 1 0 ]
+{
+"46
+[v main@celsius celsius `i  1 a 2 50 ]
+"45
+[v main@mV mV `i  1 a 2 48 ]
+"72
+} 0
+"124
+[v _print_char print_char `(v  1 e 1 0 ]
+{
+[v print_char@data data `uc  1 a 1 wreg ]
+[v print_char@data data `uc  1 a 1 wreg ]
+"127
+[v print_char@data data `uc  1 a 1 1 ]
+"137
+} 0
+"83
+[v _init init `(v  1 e 1 0 ]
+{
+"94
+} 0
+"98
+[v _init_display init_display `(v  1 e 1 0 ]
+{
+"119
+} 0
+"142
+[v _print_instr print_instr `(v  1 e 1 0 ]
+{
+[v print_instr@instr instr `uc  1 a 1 wreg ]
+[v print_instr@instr instr `uc  1 a 1 wreg ]
+"145
+[v print_instr@instr instr `uc  1 a 1 1 ]
+"153
+} 0
+"173
+[v _E E `(v  1 e 1 0 ]
+{
+"182
+} 0
+"159
+[v _EE EE `(v  1 e 1 0 ]
+{
+"168
+} 0
+"74
+[v _adc adc `(ui  1 e 2 0 ]
+{
+"80
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 41 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 45 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 40 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 32 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 11 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 15 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 14 ]
+[v ___ftmul@exp exp `uc  1 a 1 10 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 0 ]
+[v ___ftmul@f2 f2 `f  1 p 3 3 ]
+"157
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 27 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 31 ]
+[v ___ftdiv@exp exp `uc  1 a 1 30 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 26 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 16 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 19 ]
+"86
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 13 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 1 ]
+[v ___awmod@counter counter `uc  1 a 1 0 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 9 ]
+[v ___awmod@dividend dividend `i  1 p 2 11 ]
+"35
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0

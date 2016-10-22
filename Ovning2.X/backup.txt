@@ -1,0 +1,36 @@
+/*
+ * File:   main.c
+ * Author: Miran
+ *
+ * Created on 20 April 2016, 20:30
+ */
+
+
+#include <htc.h>
+
+#define _XTAL_FREQ 500000                          
+#define RC2_LED_LAT LATC2
+#define RC3_LED_LAT LATC3
+#define RC6_LED_LAT LATC6
+#define RC7_LED_LAT LATC7
+
+unsigned int delay;
+
+void Delay(void);
+
+void main(void) {
+    TRISC = 0b0010011; // sätter pins som output
+    OSCCON = 0b00111000;                     
+    RC2_LED_LAT = RC3_LED_LAT = RC6_LED_LAT = RC7_LED_LAT = 0;  
+    while(1) {
+        __delay_ms(500);
+        RC2_LED_LAT = RC3_LED_LAT = RC6_LED_LAT = RC7_LED_LAT = ~RC7_LED_LAT;  
+    }
+}
+
+void Delay(void)                                                                
+{
+    int i = 0;
+    for(i=0;i<11250;i++){
+    }
+}
